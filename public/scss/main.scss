@@ -199,6 +199,12 @@ body
     border: 1px solid #888;
     width: 50%;
 
+    @media only screen and (max-width: 600px) {
+      margin-top: 7rem;
+      width: 82%;
+      padding: 2rem;
+    }
+
     &__header {
       margin-bottom: 4rem;
       text-transform: uppercase;

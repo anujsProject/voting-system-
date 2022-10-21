@@ -163,6 +163,13 @@ body {
   border: 1px solid #888;
   width: 50%;
 }
+@media only screen and (max-width: 600px) {
+  .modal-content {
+    margin-top: 7rem;
+    width: 82%;
+    padding: 2rem;
+  }
+}
 .modal-content__header {
   margin-bottom: 4rem;
   text-transform: uppercase;
