@@ -15,6 +15,10 @@ html {
     letter-spacing: 1px;
     font-weight: 500;
 
+    @media only screen and (max-width: 600px) {
+      font-size: 8px;
+    }
+
 }
 
 *,
@@ -69,14 +73,11 @@ body
     }
 }
 
-.content {
-    // text-align: center;
-}
 
 /*----- Form Design ------*/
 
 .heading {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -153,10 +154,15 @@ body
   .content {
   display: block;
   max-width: 55rem;
-  margin: 6rem auto;
+  margin: 0 auto;
   background-color: #fff;
-  padding: 6rem 7rem;
-  box-shadow: 0 0.2rem 5rem rgba(0, 0, 0, 0.15)
+  padding: 1rem 5rem;
+  padding-top: 3rem;
+  box-shadow: 0 0.2rem 5rem rgba(0, 0, 0, 0.15);
+
+  @media only screen and (max-width: 600px) {
+    max-width: 43rem;
+  }
 }
 
 
