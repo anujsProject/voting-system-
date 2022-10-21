@@ -1,0 +1,103 @@
+<!-- Feels damn good to be back to development -->
+
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href = "public/scss/main.css" rel = "stylesheet"/>
+    <body>
+        <header class = "header maxWidth">
+            <div class="navbar-header">
+                <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar6">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button> -->
+                <a class="navbar-brand" href="#" onclick="window.open('https://www.nitt.edu/')"></a>
+              </div>
+            <!-- <h1 class = "header__heading heading--primary">OSOC Presents Voting System For CR/CCM !!!</h1> -->
+        </header>
+        <section class = "content maxWidth">
+
+            <div
+                  class="heading heading--secondary heading--design1"
+                >
+                  Cast your Vote...
+            </div>
+            <div class="form register__form" data-status="undefined">
+                <div class="form__field">
+                <label class="form__field__label">Full Name</label
+                ><input class="form__field__input form__field__input--name fullName" type="text" />
+                </div>
+                <div class="form__field">
+                <label class="form__field__label">Roll No</label
+                ><input class="form__field__input form__field__input--roll rollNo" type="number" />
+                </div>
+                <div class = "form__field form__field--select">
+                <label>Choose your candidate </label>
+                <select class = "form__field__select--cand">
+                    <option>Bala</option>
+                    <option>Raj</option>
+                    <option>Aman</option>
+                    <option>Rishabh</option>
+                    <option>Chaksu</option>
+                </select>
+            </div>
+                <div class="form__field">
+                <button class="form__field__submitBtn">Vote</button>
+                </div>
+                <a class="form__field form__field__resultBtn"
+                >Want to see the result ? Click Here</a
+                >
+
+                <a class="form__field form__field__clearDataBtn"
+                >Reset Everything...</a
+                >
+            </div>
+            <!-- Main work here -->
+
+            <!-- <form class = "form">
+                <div class = "field field--roll">
+                    <label>Enter your roll No. </label>
+                    <input type = "text" />
+                </div>
+
+                <div class = "field field--name">
+                    <label>Enter your name </label>
+                    <input type = "text" />
+                </div>
+
+                
+                
+
+                <div class = "field field--submit">
+                    <input type = "submit" value = "Vote"/>
+                </div>
+
+
+            </form> -->
+
+
+   
+                
+        </section>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class = "modal-content__header">Results</h2>
+            <p class = "modal-content__para"></p>
+            </div>
+        
+        </div>
+  
+    </body>
+    <script  src = "public/js/main.js"></script>
+</head>
+</html>

@@ -1,0 +1,185 @@
+/*----- Base Styling ---- */
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  font-family: "Jura", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.maxWidth {
+  max-width: 134rem;
+  margin: 1rem auto;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../resources/img/osoc_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  font-size: 1.8rem;
+  overflow-x: hidden;
+}
+
+.navbar-brand {
+  background: url(../resources/img/nitt_logo.png) center/contain no-repeat;
+  width: 300px;
+  height: 100px;
+  padding: 0px;
+  display: block;
+}
+.navbar-brand img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.header__heading {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+/*----- Form Design ------*/
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form {
+  border: 2px solid #fff;
+  margin-top: 2rem;
+  display: block;
+  font-size: 1.8rem;
+}
+.form__field {
+  margin: 2rem 0;
+}
+.form__field label {
+  display: block;
+  text-align: left;
+  font-weight: 500;
+}
+.form__field input, .form__field select, .form__field button {
+  display: block;
+  padding: 0.4rem 0.6rem;
+  margin-top: 1rem;
+  border: 2px solid #ddd;
+  outline: none;
+  font-size: inherit;
+  width: 100%;
+  font-family: inherit;
+  letter-spacing: inherit;
+  border-radius: 0.5rem;
+}
+.form__field__resultBtn, .form__field__clearDataBtn {
+  color: #d35400;
+  font-weight: 600;
+  font-size: 1.6rem;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.form__field__resultBtn:hover, .form__field__clearDataBtn:hover {
+  text-decoration: underline;
+}
+.form__field__clearDataBtn {
+  margin-top: 3rem;
+  font-weight: 700;
+  color: red;
+  text-align: right;
+}
+.form__field__submitBtn, .form__field__passkeyBtn {
+  border: none !important;
+  background-color: #d35400;
+  color: #fff;
+  padding: 1rem 2rem !important;
+  box-shadow: 0.2rem 0.4rem 1rem #ccc;
+  opacity: 0.8;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.form__field__submitBtn:hover, .form__field__passkeyBtn:hover {
+  box-shadow: 0.4rem 0.8rem 1.5rem #ccc;
+  opacity: 1;
+}
+
+.content {
+  display: block;
+  max-width: 55rem;
+  margin: 6rem auto;
+  background-color: #fff;
+  padding: 6rem 7rem;
+  box-shadow: 0 0.2rem 5rem rgba(0, 0, 0, 0.15);
+}
+
+/*---- Modal Design ----*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 20rem;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+}
+.modal--result p {
+  margin-top: 1rem;
+}
+.modal--result__total {
+  margin-bottom: 2rem;
+  color: #d35400;
+  font-weight: 700;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 3rem;
+  margin-top: 10rem;
+  border: 1px solid #888;
+  width: 50%;
+}
+.modal-content__header {
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+}
+.modal-content__para {
+  margin-top: 2rem;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.6rem;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}/*# sourceMappingURL=main.css.map */
